@@ -62,13 +62,17 @@ console.log(arr5);
 arr5.sort((a,b)=>b-a);
 console.log(arr5);
 
-//.flaten()
+//.flat()
 arr5 = [1, 2, 3, [4, 5, 6, [7, 8, 9]], 10, 11];//this is 3d array
 console.log(arr5[3][3][1]);
 let arr6 = arr5.flat();//this will make the array flat but only upto 1 level
 console.log(arr6);
 arr6 = arr5.flat(2);//this will make arr5 flat upto 2 level but if we don't know the dimensions of array we can use "infinity".
 console.log(arr6);
+
+//we can destructure array
+const [first, second] = arr6;
+console.log(first, second);
 
 
 
