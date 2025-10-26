@@ -66,3 +66,18 @@ const user3 = {...user};
 //to achieve complete independency we use sturctureclone()
 const user4 = structureclone(user);
 console.log(user4);
+
+
+
+// spread operator in javascript
+const person = { name: "Alice", age: 25 };
+
+// Spread: Unpack object properties
+const updatedPerson = { ...person, city: "NYC" };
+console.log(updatedPerson);
+// { name: "Alice", age: 25, city: "NYC" }
+
+// Overwriting properties
+const olderPerson = { ...person, age: 30 };
+// { name: "Alice", age: 30 }
+
