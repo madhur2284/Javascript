@@ -1,0 +1,50 @@
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#GrandParent{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Parent{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Child{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
