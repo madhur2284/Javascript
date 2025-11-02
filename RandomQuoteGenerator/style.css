@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.dbox{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.static{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.common{
+    padding: 10px;
+}
+
+
+
+
